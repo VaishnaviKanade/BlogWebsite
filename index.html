@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Education Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="container">
+    <article>
+        <h2>The Impact of Technology on Education</h2>
+        <p>
+            Technology has revolutionized the education sector, transforming the way we teach and learn. In today's digital age, classrooms are no longer confined to physical spaces, and information is just a click away.
+        </p>
+        <p>
+            The integration of technology in education has opened up new possibilities for interactive learning. Virtual classrooms, educational apps, and online resources provide students with access to a vast sea of knowledge. Teachers can leverage multimedia presentations and interactive simulations to make complex concepts more understandable.
+        </p>
+        <p>
+            Furthermore, technology has made education more inclusive. Students from different geographical locations can connect and collaborate on projects, breaking down the barriers of traditional education. This global perspective enhances cultural understanding and prepares students for the interconnected world they will navigate in the future.
+        </p>
+    </article>
+
+    <!-- Add more articles as needed -->
+
+</section>
+
+<section class="container" id="comments-section">
+    <h2>Comments</h2>
+    <div id="comments"></div>
+
+    <form id="comment-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" rows="4" required></textarea>
+
+        <button type="button" onclick="addComment()">Add Comment</button>
+    </form>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2023 Education Hub. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
